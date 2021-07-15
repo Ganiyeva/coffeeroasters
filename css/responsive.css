@@ -1,0 +1,128 @@
+@media(max-width: 1199px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .inner-container {
+        max-width: 770px;
+    }
+
+    .collection {
+        background-size: contain;
+    }
+
+    .coffee img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .choose-card {
+        width: 25rem;
+        padding: 7.2rem 1rem 4.8rem;
+    }
+}
+
+@media(max-width: 991px) {
+    .container {
+        max-width: 690px;
+    }
+
+    .inner-container {
+        max-width: 573px;
+    }
+
+    .intro-title {
+        font-size: 4.8rem;
+        line-height: 4.8rem;
+        max-width: 329px;
+    }
+
+    .page-text {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .collection {
+        background-position: center 18.5rem;
+        padding: 20rem 0 14rem 0;
+    }
+
+    .collection .page-text {
+        max-width: 100%;
+    }
+
+    .coffee {
+        text-align: start;
+    }
+
+    .coffee .row {
+        align-items: center;
+    }
+
+    .coffee-title {
+        margin-top: 0;
+    }
+
+    .position{
+        padding-top: 5.6rem;
+    }
+
+    .choose-title {
+        font-size: 3.2rem;
+    }
+
+    .choose-card {
+        width: 100%;
+        display: flex;
+        text-align: start;
+        padding: 4rem 4.8rem 4rem 7rem;
+        align-items: center;
+        margin-top: 2.4rem;
+    }
+
+    .choose-first{
+        margin-top: 6rem;
+    }
+
+    .m-l {
+        margin-top: 1.6rem;
+    }
+
+    .why-title {
+        margin-left: 5.5rem;
+    }
+
+    .liner::before {
+        width: 46.7rem;
+    }
+
+    .pick-title {
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+    }
+
+    .collection,
+    .how-works .inner-container {
+        max-width: 690px;
+    }
+
+    .how-works{
+        padding: 14rem 0;
+    }
+
+    .main-footer{
+        padding-bottom: 7rem;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    .footer-nav {
+        margin-top: 3.2rem;
+    }
+
+    .icons {
+        margin: 6.5rem auto 0 auto;
+    }
+}
